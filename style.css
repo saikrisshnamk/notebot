@@ -9,3 +9,35 @@ header {
     padding: 0px; /* Add some padding to the header */
     
   }
+  #sendButton {
+    background-color: #018dd2; /* Blue background color */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding for the button */
+    color: #fff; /* Text color (white) */
+    font-weight: bold; /* Bold text */
+  }
+  #messageInput {
+    /* Common styles */
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    color: #fff;
+  
+    /* Shadow effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    /* Background color and text color */
+    background-color: #018dd2;
+  }
+  
+  #messageInput::placeholder {
+    /* Placeholder styles */
+    color: #fff;
+    opacity: 0.5;
+  }
+  
+  /* Flex utility class for flexibility */
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
